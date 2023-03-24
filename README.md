@@ -2,7 +2,7 @@
 
 ## About this repository
 
-This repository presents an enhanced starter pack for Statamic, developed by [illegal studio](https://illegal.studio)
+This repository presents an enhanced starter pack for Statamic, developed by [illegal studio](https://github.com/illegalstudio)
 
 The package supersedes Mix with Vite, offering a fundamental configuration for both Tailwind CSS and PostCSS. Moreover, it incorporates Blade as the preferred templating engine, replacing Antlers for a more streamlined approach to basic templating.
 
