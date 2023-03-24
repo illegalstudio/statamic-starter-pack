@@ -16,3 +16,6 @@ yarn-error.log
 .DS_Store
 /.idea
 /.vscode
+# The next two lines ignores the users folder. Remove them to sync your users folder with the repository.
+/users
+!/users/.gitkeep
