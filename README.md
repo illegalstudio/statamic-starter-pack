@@ -1,5 +1,11 @@
 <p align="center"><img src="https://statamic.com/assets/branding/Statamic-Logo+Wordmark-Rad.svg" width="400" alt="Statamic Logo" /></p>
 
+## About this repository
+
+This repository presents an enhanced starter pack for Statamic, developed by [illegal studio](https://illegal.studio)
+
+The package supersedes Mix with Vite, offering a fundamental configuration for both Tailwind CSS and PostCSS. Moreover, it incorporates Blade as the preferred templating engine, replacing Antlers for a more streamlined approach to basic templating.
+
 ## About Statamic 3
 
 Statamic 3 is the flat-first, Laravel + Git powered CMS designed for building beautiful, easy to manage websites.
