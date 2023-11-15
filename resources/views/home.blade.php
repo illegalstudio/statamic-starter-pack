@@ -1,4 +1,4 @@
-<x-layout :title="$title ?? $site->title" :locale="$site->short_locale">
+<x-layout :context="$__data">
     <a href="https://illegal.studio" target="_blank" class="text-4xl tracking-widest font-montserrat font-medium mb-2">
         illegal studio
     </a>

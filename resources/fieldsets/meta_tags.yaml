@@ -1,0 +1,160 @@
+title: 'Meta tags'
+fields:
+  -
+    handle: description
+    field:
+      placeholder: Description...
+      antlers: false
+      type: textarea
+      display: Description
+      icon: textarea
+      instructions: 'SEO friendly description'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+  -
+    handle: keywords
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Keywords
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      width: 50
+      instructions: 'Comma separated keywords'
+      placeholder: 'Keywords, for, my, website'
+  -
+    handle: subject
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Subject
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      width: 50
+      instructions: 'Website subject'
+      placeholder: 'On this website we talk about ...'
+  -
+    handle: copyright
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Copyright
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      width: 50
+      instructions: 'Company that owns the copyright'
+      placeholder: 'illegal studio'
+  -
+    handle: language
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Language
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      width: 50
+      instructions: 'Language used in the website'
+      placeholder: EN
+  -
+    handle: robots
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Robots
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      width: 50
+      instructions: 'Instructions for web robots'
+      placeholder: 'index,follow'
+  -
+    handle: abstract
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Abstract
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      width: 50
+      instructions: 'An abstract of the page'
+      placeholder: 'Lorem ipsum dolor sit amet...'
+  -
+    handle: topic
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Topic
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      width: 50
+      instructions: 'The topic of the content'
+      placeholder: 'Main topic'
+  -
+    handle: summary
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Summary
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      width: 50
+      instructions: 'A summary of the content'
+      placeholder: 'Lorem ipsum dolor sit amet...'
+  -
+    handle: revisit_after
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: 'Revisit after'
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      width: 50
+      instructions: 'Bots revisiting policy'
+      placeholder: '7 days'
