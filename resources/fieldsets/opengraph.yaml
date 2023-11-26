@@ -1,0 +1,367 @@
+title: OpenGraph
+fields:
+  -
+    handle: title
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Title
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      instructions: 'The title of the resource'
+      placeholder: 'The Rock'
+  -
+    handle: type
+    field:
+      input_type: text
+      placeholder: movie
+      antlers: false
+      type: text
+      display: Type
+      icon: text
+      instructions: 'The type of the resource'
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+  -
+    handle: url
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Url
+      icon: text
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      instructions: 'The URL of the resource'
+      placeholder: 'http://www.imdb.com/title/tt0117500/'
+  -
+    handle: image
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Image
+      icon: text
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      instructions: 'An image representation of the resource'
+      placeholder: 'http://ia.media-imdb.com/rock.jpg'
+  -
+    handle: site_name
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: 'Site name'
+      icon: text
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      instructions: 'The site name'
+      placeholder: IMDb
+  -
+    handle: description
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Description
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      instructions: 'A description for the resource'
+      placeholder: 'A group of U.S. Marines, under command of...'
+  -
+    handle: phone_number
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: 'Phone number'
+      icon: text
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      instructions: 'The phone number for the resource'
+      placeholder: 650-123-4567
+  -
+    handle: fax_number
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: 'Fax number'
+      icon: text
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      instructions: 'The fax number for the resource'
+      placeholder: +1-415-123-4567
+  -
+    handle: email
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Email
+      icon: text
+      width: 66
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      instructions: 'The email for the resource'
+      placeholder: me@example.com
+  -
+    handle: latitude
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Latitude
+      icon: text
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      instructions: Latitude
+      placeholder: '37.416343'
+  -
+    handle: longitude
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Longitude
+      icon: text
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      instructions: Longitude
+      placeholder: '-122.153013'
+  -
+    handle: street_address
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: 'Street address'
+      icon: text
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      instructions: 'The street address'
+      placeholder: '1601 S California Ave'
+  -
+    handle: locality
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Locality
+      icon: text
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      instructions: 'The locality'
+      placeholder: 'Palo Alto'
+  -
+    handle: region
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Region
+      icon: text
+      width: 33
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      instructions: Region
+      placeholder: CA
+  -
+    handle: postal_code
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: 'Postal code'
+      icon: text
+      width: 33
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      instructions: CAP
+      placeholder: '94304'
+  -
+    handle: country_name
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: 'Country name'
+      icon: text
+      width: 33
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      instructions: 'Country name'
+      placeholder: USA
+  -
+    handle: video
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Video
+      icon: text
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      instructions: 'Video representation of the resource'
+      placeholder: 'http://example.com/html5.mp4'
+  -
+    handle: video_type
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: 'Video type'
+      icon: text
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      instructions: 'Video file type'
+      placeholder: video/mp4
+  -
+    handle: audio
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Audio
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      instructions: 'Audio for the resource'
+      placeholder: 'http://example.com/amazing.mp3'
+  -
+    handle: audio_title
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: 'Audio title'
+      icon: text
+      width: 33
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      instructions: 'Audio title'
+      placeholder: 'Amazing Song'
+  -
+    handle: audio_artist
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: 'Audio artist'
+      icon: text
+      width: 33
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      instructions: 'Audio artist'
+      placeholder: 'Amazing Band'
+  -
+    handle: audio_album
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: 'Audio album'
+      icon: text
+      width: 33
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      instructions: 'Audio album'
+      placeholder: 'Amazing Album'
+  -
+    handle: audio_type
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: 'Audio type'
+      icon: text
+      width: 33
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      instructions: 'Audio file type'
+      placeholder: application/mp3
