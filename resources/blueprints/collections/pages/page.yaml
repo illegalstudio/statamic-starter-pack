@@ -37,6 +37,12 @@ tabs:
           -
             import: meta_tags
             prefix: meta_
+      -
+        display: OpenGraph
+        fields:
+          -
+            import: opengraph
+            prefix: og_
   sidebar:
     display: Sidebar
     sections:
